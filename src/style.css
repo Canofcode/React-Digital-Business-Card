@@ -1,6 +1,63 @@
-.heroimage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.wrapper {
+    border-radius: 15px;
+    background-color: #1A1B21;
+}
+
+.head--heroimage {
+    width: 100%;
+}
+
+.head--wrapper {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin: 0px;
+    color: #F3BF99;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head--websitelink {
+    margin: 10px;
+    color: white;}
+
+.head--buttonwrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 25px 0px 25px;
+}
+
+.head--buttonicon {
+    margin-right: 8px;
+}
+
+.head--button_email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+}
+
+.head--button_linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    background: #5093E2;
+    border: 1px solid #5093E2;
+    border-radius: 6px;
+    color: white;
 }

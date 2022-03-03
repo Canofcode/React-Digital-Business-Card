@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./style.css"
-import Hero from './components/Hero';
-
+import App from "./components/Head";
 ReactDOM.render(
   <React.StrictMode>
-    <Hero/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
